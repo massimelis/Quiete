@@ -45,7 +45,7 @@ const SCENES = [
   },
   {
     id: 'caminetto', name: 'Caminetto acceso', emoji: '🔥',
-    audio: 'audio/audio2/caminetto.mp3',
+    audio: 'audio/audio5/caminetto.mp3',
     bg: 'https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?q=80&w=1920&auto=format&fit=crop'
   },
   {
