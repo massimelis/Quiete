@@ -1108,9 +1108,9 @@ html,body{
   bottom: calc(44px + var(--sab));
 }
   
-   .dock{ width:100%; justify-content:center; gap:6px; padding:9px 12px; }
-   .dock-btn{ flex:1 1 0; width:auto; max-width:84px; height:60px; }
-.dock-btn svg{ width:28px; height:28px; }
+   .dock{ width:100%; justify-content:space-between; gap:4px; padding:9px 14px; }
+   .dock-btn{ flex:0 0 auto; width:58px; height:58px; aspect-ratio:1; max-width:none; }
+.dock-btn svg{ width:32px; height:32px; }
 
   /* Page-dots: unico punto in cui esistono (solo smartphone), portati al
      limite fisico inferiore (a filo della safe-area) per massimizzare lo
@@ -1234,9 +1234,9 @@ html,body{
 
 @media (max-width: 400px){
 .dock-wrap{ width: min(94vw, 480px); }
-.dock{ padding:7px 8px; gap:4px; }
-.dock-btn{ width:auto; height:58px; }
-.dock-btn svg{ width:28px; height:28px; }
+.dock{ padding:7px 8px; gap:2px; }
+.dock-btn{ flex:0 0 auto; width:54px; height:54px; aspect-ratio:1; }
+.dock-btn svg{ width:30px; height:30px; }
 .dock-divider{ height:26px; }
 /* Scrollbar styling (webkit): più sottile e lunghezza visiva ulteriormente
    ridotta tramite dissolvenza più marcata alle estremità.
