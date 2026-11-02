@@ -1102,12 +1102,12 @@ html,body{
   .player{ padding:22px 18px 20px; gap:14px; }
   .player-title{ font-size:16px; }
 
-  .dock-wrap{
-    width: min(94vw, 480px);
-    max-width: calc(100vw - 24px - var(--sal) - var(--sar));
-    bottom: calc(44px + var(--sab));
-  }
-  .dock{ width:100%; justify-content:space-evenly; gap:5px; padding:9px 11px; }
+.dock-wrap{
+  width:auto;
+  max-width: calc(100vw - 24px - var(--sal) - var(--sar));
+  bottom: calc(44px + var(--sab));
+}
+  .dock{ width:auto; justify-content:center; gap:4px; padding:9px 12px; }
 
   /* Page-dots: unico punto in cui esistono (solo smartphone), portati al
      limite fisico inferiore (a filo della safe-area) per massimizzare lo
@@ -1230,8 +1230,8 @@ html,body{
 }
 
 @media (max-width: 400px){
-  .dock-wrap{ width: min(94vw, 480px); }
-  .dock{ padding:7px 5px; gap:2px; }
+ .dock-wrap{ width:auto; }
+.dock{ padding:7px 8px; gap:2px; }
   .dock-btn{ width:54px; height:54px; }
   .dock-btn svg{ width:30px; height:30px; }
   .dock-divider{ height:26px; }
