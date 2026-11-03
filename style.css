@@ -1010,6 +1010,8 @@ html,body{
 }
 
 @media (max-width: 760px){
+
+   --shift: 14px;
   /* ---- Viewport dinamico + safe-area (notch/Dynamic Island/home indicator) ----
      dvh si adatta in automatico alla barra indirizzo che appare/scompare in
      Safari/Chrome mobile (causa principale di "elementi tagliati" e "spinti
