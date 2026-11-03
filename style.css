@@ -1011,7 +1011,7 @@ html,body{
 
 @media (max-width: 760px){
 
-   --shift: 14px;
+  
   /* ---- Viewport dinamico + safe-area (notch/Dynamic Island/home indicator) ----
      dvh si adatta in automatico alla barra indirizzo che appare/scompare in
      Safari/Chrome mobile (causa principale di "elementi tagliati" e "spinti
@@ -1033,6 +1033,7 @@ html,body{
        gap interno 14px + padding verticale 42px), usata per calcolare fino
        a dove i widget possono espandersi senza mai sovrapporlo. */
     --player-h: 132px;
+      --shift: 14px;
   }
 
   html, body{ height: 100vh; height: 100dvh; }
